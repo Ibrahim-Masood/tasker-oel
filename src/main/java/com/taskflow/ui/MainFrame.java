@@ -248,7 +248,7 @@ public class MainFrame extends JFrame {
         footer.add(new ThemedLabel("Saved automatically · Ctrl+N new · Ctrl+Z undo · Ctrl+F search"
                 + " · double-click a task to edit", () -> Theme.p().hint(), Theme.font(12f, Font.PLAIN)),
                 BorderLayout.WEST);
-        footer.add(new ThemedLabel("Built by Ibrahim Masood", () -> Theme.p().hint(), Theme.font(12f, Font.PLAIN)),
+        footer.add(new ThemedLabel("Tasker by Ibrahim Masood", () -> Theme.p().hint(), Theme.font(12f, Font.PLAIN)),
                 BorderLayout.EAST);
         return footer;
     }
@@ -672,3 +672,4 @@ public class MainFrame extends JFrame {
         }
     }
 }
+ibrahim
